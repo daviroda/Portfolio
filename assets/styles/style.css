@@ -454,12 +454,12 @@ div.container-projetos {
 
 /*RESPONSIVIDADE CELULAR - PROJETOS*/
 @media screen and (max-width: 350px) {
-    div.primeiro-projeto, div.segundo-projeto, div.terceiro-projeto {
+    div.primeiro-projeto, div.segundo-projeto, div.terceiro-projeto, div.quarto-projeto {
         width: 250px;
     }
 }
 
-div.primeiro-projeto, div.segundo-projeto, div.terceiro-projeto {
+div.primeiro-projeto, div.segundo-projeto, div.terceiro-projeto, div.quarto-projeto {
     margin: 10px;
     max-width: 300px;
     background-color: rgb(170, 169, 169);
@@ -468,25 +468,25 @@ div.primeiro-projeto, div.segundo-projeto, div.terceiro-projeto {
     padding: 10px;
 }
 
-div.primeiro-projeto h3, div.segundo-projeto h3, div.terceiro-projeto h3 {
+div.primeiro-projeto h3, div.segundo-projeto h3, div.terceiro-projeto h3, div.quarto-projeto h3 {
     font-family: var(--font-destaque);
     margin-top: 10px;
     margin-bottom: 20px;
 }
 
-div.primeiro-projeto:hover, div.segundo-projeto:hover, div.terceiro-projeto:hover {
+div.primeiro-projeto:hover, div.segundo-projeto:hover, div.terceiro-projeto:hover, div.quarto-projeto:hover {
     padding: 15px;
     cursor: pointer;
     transition: 0.8s;
     background-color: #567478;
 }
 
-div.img-primeiro-projeto img, div.img-segundo-projeto img, div.img-terceiro-projeto img {
+div.img-primeiro-projeto img, div.img-segundo-projeto img, div.img-terceiro-projeto img, div.img-quarto-projeto img {
     max-width: 100%;
     border-radius: 10px;
 }
 
-div.primeiro-projeto a, div.segundo-projeto a, div.terceiro-projeto a {
+div.primeiro-projeto a, div.segundo-projeto a, div.terceiro-projeto a, div.quarto-projeto a {
     color: #091f2a;
     text-decoration: none;
     margin-top: 20px;

@@ -481,7 +481,7 @@ div.primeiro-projeto:hover, div.segundo-projeto:hover, div.terceiro-projeto:hove
     background-color: #567478;
 }
 
-div.img-primeiro-projeto img, div.img-segundo-projeto img, div.img-terceiro-projeto img, div.img-quarto-projeto img {
+div.img-primeiro-projeto img, div.img-terceiro-projeto img,div.img-segundo-projeto img, div.img-quarto-projeto img {
     max-width: 100%;
     border-radius: 10px;
 }
